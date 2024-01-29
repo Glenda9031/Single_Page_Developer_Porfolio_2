@@ -9,8 +9,18 @@
   <title>Frontend Mentor | Single-page developer portfolio</title>
 </head>
 <body>
-  <header>
-    <nav class="nav nav--positioned">
+  <header class="section">
+    <nav class="nav">
+      <div class="nav__logo">adamkeyes</div>
+        <ul class="nav__icon-container">
+          <li class="nav__icon"><img src="./assets/images/icon-github.svg" alt="github icon"></li>
+          <li class="nav__icon"><img src="./assets/images/icon-frontend-mentor.svg" alt="frontend-mentor icon"></li>
+          <li class="nav__icon"><img src="./assets/images/icon-linkedin.svg" alt="linkedin icon"></li>
+          <li class="nav__icon"><img src="./assets/images/icon-twitter.svg" alt="twitter icon"></li>
+        </ul>
+    </nav>
+
+<!--    <nav class="nav nav--positioned">
       <div class="nav__logo">adamkeyes</div>
       <ul class="nav__icon-container">
         <li class="nav__icon"><img src="./assets/images/icon-github.svg" alt="github icon"></li>
@@ -18,7 +28,7 @@
         <li class="nav__icon"><img src="./assets/images/icon-linkedin.svg" alt="linkedin icon"></li>
         <li class="nav__icon"><img src="./assets/images/icon-twitter.svg" alt="twitter icon"></li>
       </ul>
-    </nav>
+    </nav>-->
   </header>
 
   <main>
@@ -31,8 +41,8 @@
               <img src="./assets/images/image-profile-mobile.webp" alt="" class="section__img">
             </picture>
           </div>
-          <div class="hero__bg img-1"><img src="./assets/images/pattern-circle.svg" alt=""></div>
-          <div class="hero__bg img-1"><img src="./assets/images/pattern-rings.svg" alt=""></div>
+          <div class="hero__bg-img-1"><img src="./assets/images/pattern-circle.svg" alt=""></div>
+          <div class="hero__bg-img-2"><img src="./assets/images/pattern-rings.svg" alt=""></div>
         </div>
         <div class="hero__text-content">
           <h1 class="section__heading">Nice to meet you! I'm <span class="hero__name">Adam Keyes.</span></h1>
@@ -44,29 +54,29 @@
     </section>
 
     <section class="section skills">
-      <div class="skills__container">
+      <div class="skills-container">
         <div class="skill">
-          <div class="skills__container__language">HTML</div>
+          <div class="skills-container__language">HTML</div>
           <p class="section__text">4 Years Experience</p>
         </div>
         <div class="skill">
-          <div class="skills__container__language">CSS</div>
+          <div class="skills-container__language">CSS</div>
           <p class="section__text">4 Years Experience</p>
         </div>
         <div class="skill">
-          <div class="skills__container__language">JavaScript</div>
+          <div class="skills-container__language">JavaScript</div>
           <p class="section__text">4 Years Experience</p>
         </div>
         <div class="skill">
-          <div class="skills__container__language">Accessibility</div>
+          <div class="skills-container__language">Accessibility</div>
           <p class="section__text">4 Years Experience</p>
         </div>
         <div class="skill">
-          <div class="skills__container__language">React</div>
+          <div class="skills-container__language">React</div>
           <p class="section__text">3 Years Experience</p>
         </div>
         <div class="skill">
-          <div class="skills__container__language">Sass</div>
+          <div class="skills-container__language">Sass</div>
           <p class="section__text">3 Years Experience</p>
         </div>
         <div class="skills__bg-img"><img src="./assets/images/pattern-rings.svg" alt=""></div>
@@ -206,6 +216,7 @@
           </div>
           <button class="section__link" href="#" type="submit">Send message</button>
         </form>
+        <div class="contact__bg-img"><img src="./assets/images/pattern-rings.svg" alt=""></div>
       </div>
     </section>
   </main>
@@ -224,8 +235,5 @@
   </footer>
 
   <script src="script.js"></script>
-  
-  
-
 </body>
 </html>
