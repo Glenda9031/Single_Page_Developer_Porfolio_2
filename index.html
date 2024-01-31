@@ -9,48 +9,37 @@
   <title>Frontend Mentor | Single-page developer portfolio</title>
 </head>
 <body>
-  <header class="section">
-    <nav class="nav">
-      <div class="nav__logo">adamkeyes</div>
-        <ul class="nav__icon-container">
-          <li class="nav__icon"><img src="./assets/images/icon-github.svg" alt="github icon"></li>
-          <li class="nav__icon"><img src="./assets/images/icon-frontend-mentor.svg" alt="frontend-mentor icon"></li>
-          <li class="nav__icon"><img src="./assets/images/icon-linkedin.svg" alt="linkedin icon"></li>
-          <li class="nav__icon"><img src="./assets/images/icon-twitter.svg" alt="twitter icon"></li>
-        </ul>
-    </nav>
-
-<!--    <nav class="nav nav--positioned">
-      <div class="nav__logo">adamkeyes</div>
-      <ul class="nav__icon-container">
-        <li class="nav__icon"><img src="./assets/images/icon-github.svg" alt="github icon"></li>
-        <li class="nav__icon"><img src="./assets/images/icon-frontend-mentor.svg" alt="frontend-mentor icon"></li>
-        <li class="nav__icon"><img src="./assets/images/icon-linkedin.svg" alt="linkedin icon"></li>
-        <li class="nav__icon"><img src="./assets/images/icon-twitter.svg" alt="twitter icon"></li>
-      </ul>
-    </nav>-->
-  </header>
-
   <main>
     <section class="section hero">
-      <div class="hero__content">
-        <div class="hero__avatar">
-          <div class="hero__avatar-container">
-            <picture class="section__img">
-              <source srcset="./assets/images/image-profile-tablet.webg" media="(min-width:550px)">
-              <img src="./assets/images/image-profile-mobile.webp" alt="" class="section__img">
-            </picture>
+      <nav class="nav nav--positioned">
+        <div class="nav__logo">adamkeyes</div>
+          <ul class="nav__icon-container">
+            <div class="nav__icon"><img src="./assets/images/icon-github.svg" alt="github icon"></div>
+            <div class="nav__icon"><img src="./assets/images/icon-frontend-mentor.svg" alt="frontend-mentor icon"></div>
+            <div class="nav__icon"><img src="./assets/images/icon-linkedin.svg" alt="linkedin icon"></div>
+            <div class="nav__icon"><img src="./assets/images/icon-twitter.svg" alt="twitter icon"></div>
+          </ul>
+      </nav>
+
+        <div class="hero__content">
+          <div class="hero__avatar">
+            <div class="hero__avatar-container">
+              <picture class="section__img">
+                <source srcset="assets/images/image-profile-tablet.webp" media="(min-width: 550px)">
+                <img class="section__img" src="assets/images/image-profile-mobile.webp" alt="">
+              </picture>
+  
+            </div>
+            <div class="hero__bg-img-1"><img src="./assets/images/pattern-circle.svg" alt=""></div>
+            <div class="hero__bg-img-2"><img src="./assets/images/pattern-rings.svg" alt=""></div>
           </div>
-          <div class="hero__bg-img-1"><img src="./assets/images/pattern-circle.svg" alt=""></div>
-          <div class="hero__bg-img-2"><img src="./assets/images/pattern-rings.svg" alt=""></div>
+          <div class="hero__text-content">
+            <h1 class="section__heading">Nice to meet you! I'm <span class="hero__name">Adam Keyes.</span></h1>
+            <p class="section__text hero__text">Based in the UK, I'm a front-end developer passionate about 
+              building accessible web apps that users love.</p>
+            <a href="#" class="section__link">Contact me</a>  
+          </div>
         </div>
-        <div class="hero__text-content">
-          <h1 class="section__heading">Nice to meet you! I'm <span class="hero__name">Adam Keyes.</span></h1>
-          <p class="section__text hero__text">Based in the UK, I'm a front-end developer passionate about 
-            building accessible web apps that users love.</p>
-          <a href="#" class="section__link">Contact me</a>  
-        </div>
-      </div>
     </section>
 
     <section class="section skills">
@@ -219,20 +208,20 @@
         <div class="contact__bg-img"><img src="./assets/images/pattern-rings.svg" alt=""></div>
       </div>
     </section>
-  </main>
 
   <footer class="section section--grey footer">
     <div class="footer__horizontal-rule"></div>
     <nav class="nav">
       <div class="nav__logo">adamkeyes</div>
         <ul class="nav__icon-container">
-          <li class="nav__icon"><img src="./assets/images/icon-github.svg" alt="github icon"></li>
-          <li class="nav__icon"><img src="./assets/images/icon-frontend-mentor.svg" alt="frontend-mentor icon"></li>
-          <li class="nav__icon"><img src="./assets/images/icon-linkedin.svg" alt="linkedin icon"></li>
-          <li class="nav__icon"><img src="./assets/images/icon-twitter.svg" alt="twitter icon"></li>
+          <div class="nav__icon"><img src="./assets/images/icon-github.svg" alt="github icon"></div>
+          <div class="nav__icon"><img src="./assets/images/icon-frontend-mentor.svg" alt="frontend-mentor icon"></div>
+          <div class="nav__icon"><img src="./assets/images/icon-linkedin.svg" alt="linkedin icon"></div>
+          <div class="nav__icon"><img src="./assets/images/icon-twitter.svg" alt="twitter icon"></div>
         </ul>
     </nav>
   </footer>
+</main>
 
   <script src="script.js"></script>
 </body>
